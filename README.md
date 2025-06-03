@@ -7,7 +7,7 @@ What was done?
 4. Using LangChain Expression Language (LCEL - the | pipe) instead "LLMChain" class
 
 Prerequisites:
--Python 3.8+ 
--Google Gemini API Key
--langchain-google-genai~=2.1.5
--langchain~=0.3.25
+-- Python 3.8+ 
+-- Google Gemini API Key
+-- langchain-google-genai~=2.1.5
+-- langchain~=0.3.25
