@@ -5,7 +5,7 @@ import os
 import pandas as pd
 
 # Load the cleaned CSV file
-df = pd.read_csv("children_stories.csv").head(10) #load only the first 10 stories
+df = pd.read_csv("../data/children_stories.csv").head(10) #load only the first 10 stories
 
 # Set up embeddings and database location
 embeddings = OllamaEmbeddings(model="gemma:2b")
