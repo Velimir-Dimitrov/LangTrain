@@ -16,7 +16,7 @@ add_documents = not os.path.exists(db_location)
 if add_documents:
     documents = []
     ids = []
-    print('stage 2')
+
     for i, row in df.iterrows():
         page_content = str(row["Names"]).strip() + " " + str(row["Description"]).strip()
         document = Document(
