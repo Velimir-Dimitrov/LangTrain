@@ -18,10 +18,10 @@ if add_documents:
     ids = []
 
     for i, row in df.iterrows():
-        page_content = str(row["names"]).strip() + " " + str(row["desc"]).strip()
+        page_content = str(row["Names"]).strip() + " " + str(row["Description"]).strip()
         document = Document(
             page_content=page_content,
-            metadata={"age": str(row["cats"]).strip(), "id": str(i)}
+            metadata={"age": str(row["Age"]).strip(), "id": str(i)}
         )
         documents.append(document)
         ids.append(str(i))
